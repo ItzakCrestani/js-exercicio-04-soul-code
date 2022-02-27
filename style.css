@@ -1,0 +1,33 @@
+.background {
+  background: #272934;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.light {
+  height: 500px;
+  width: 500px;
+  background-image: url(images/light-off.png);
+}
+
+.background-on {
+  background: #72799f;
+}
+
+.on {
+  background-image: url(images/light-on.png);
+}
+
+#btn-on-off {
+  border: none;
+  border-radius: 1rem;
+  height: 2rem;
+  width: fit-content;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 0 1rem black;
+}
